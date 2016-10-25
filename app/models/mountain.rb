@@ -1,4 +1,4 @@
 class Mountain < ActiveRecord::Base
-  has_many( :baggeds )
-  has_many( :users, { through: :baggeds } )
+  has_many( :bagged )
+  has_many( :users, { through: :bagged } )
 end

@@ -12,6 +12,9 @@ mount3 = Mountain.create({ name: "An Teallach" })
 Bagged.create({ date: "2016-01-14", user_id: user1.id, mountain_id: mount1.id })
 Bagged.create({ date: "2015-01-14", user_id: user2.id, mountain_id: mount2.id })
 Bagged.create({ date: "2014-01-14", user_id: user3.id, mountain_id: mount3.id })
+Bagged.create({ date: "2016-01-14", user_id: user1.id, mountain_id: mount2.id })
+Bagged.create({ date: "2015-01-14", user_id: user2.id, mountain_id: mount3.id })
+Bagged.create({ date: "2014-01-14", user_id: user3.id, mountain_id: mount1.id })
 
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
